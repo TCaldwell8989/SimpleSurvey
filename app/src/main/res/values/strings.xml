@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleSurvey</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="question">Are you a dog or cat person?</string>
+    <string name="reset_survey">Reset Survey</string>
+</resources>
