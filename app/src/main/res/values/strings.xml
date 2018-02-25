@@ -4,4 +4,8 @@
     <string name="cat">Cat</string>
     <string name="question">Are you a dog or cat person?</string>
     <string name="reset_survey">Reset Survey</string>
+    <string name="result_button">Results</string>
+    <string name="continue_survey">Continue Survey</string>
+    <string name="question_config">Change Question</string>
+    <string name="start_survey">Start Survey</string>
 </resources>
