@@ -10,7 +10,6 @@
         android:id="@+id/question_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,10 +20,9 @@
         android:id="@+id/dog_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/dog"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintHorizontal_bias="0.13"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498" />
@@ -33,10 +31,9 @@
         android:id="@+id/cat_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/cat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498" />
@@ -46,25 +43,24 @@
         android:id="@+id/results_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
         android:text="@string/result_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/question_textview"
-        app:layout_constraintVertical_bias="0.558" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
 
     <Button
-        android:id="@+id/question_config"
+        android:id="@+id/question_config_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/question_config"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939" />
+        app:layout_constraintVertical_bias="0.889" />
 
 
 </android.support.constraint.ConstraintLayout>

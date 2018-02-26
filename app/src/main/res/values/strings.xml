@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">SimpleSurvey</string>
-    <string name="dog">Dog</string>
-    <string name="cat">Cat</string>
-    <string name="question">Are you a dog or cat person?</string>
     <string name="reset_survey">Reset Survey</string>
     <string name="result_button">Results</string>
+    <string name="first_answer">1st Answer</string>
+    <string name="second_answer">2nd Answer</string>
     <string name="continue_survey">Continue Survey</string>
     <string name="question_config">Change Question</string>
     <string name="start_survey">Start Survey</string>
+    <string name="enter_question">Enter New Question</string>
+    <string name="enter_answers">Enter Two Answers</string>
+
 </resources>
